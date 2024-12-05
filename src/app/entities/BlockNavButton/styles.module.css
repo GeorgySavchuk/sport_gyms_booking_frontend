@@ -1,0 +1,15 @@
+.blockNavButton {
+    color: #141414;
+    border: 1px solid #141414;
+    padding: 30px 90px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.title {
+    font-size: 18px;
+}
+
+.icon, .arrow {
+    font-size: 35px;
+}

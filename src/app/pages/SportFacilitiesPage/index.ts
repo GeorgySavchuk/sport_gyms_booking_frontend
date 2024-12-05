@@ -1,0 +1,1 @@
+export {SportFacilitiesPage} from './SportFacilitiesPage';

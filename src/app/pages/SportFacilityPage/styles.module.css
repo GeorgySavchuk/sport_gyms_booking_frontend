@@ -1,0 +1,164 @@
+.sportFacilityPage {
+    margin: 100px 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    width: 100vw;
+    min-height: calc(100vh - 100px);
+}
+
+.content {
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.title {
+    display: flex;
+    padding: 10px 0;
+    gap: 10px;
+    align-items: center;
+    border-bottom: 3px solid #141414;
+}
+
+.title > span {
+    color: #000;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.backBtn {
+    height: 20px;
+    cursor: pointer;
+}
+
+.addressAndTime {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.address, .time {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.address > span, .time > span {
+    color: #000;
+    font-size: 14px;
+    line-height: 17px;
+} 
+
+.mainInfo {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.facilityImg {
+    width: 65%;
+}
+
+.facilityImg > img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.facilityDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    flex-grow: 1;
+}
+
+.areaDetails {
+    display: flex;
+    gap: 10px;
+    flex-grow: 1;
+    flex-direction: column;
+    padding: 10px 0;
+    border-bottom: 1px solid #909090;
+}
+
+.firstRow, .secondRow {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    gap: 15px;
+}
+
+.areaParams {
+    display:flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.areaParams > span {
+    font-size: 14px;
+    line-height: 16px;
+    color: #000;
+}
+
+.firstRow > span {
+    font-size: 14px;
+    line-height: 16px;
+    color: #000;
+}
+
+.secondRow > span {
+    font-size: 14px;
+    line-height: 16px;
+    color: #000;
+}
+
+.verticalSeparator {
+    width: 1.2px;
+    height: 16px;
+    background-color: #909090;
+}
+
+.amenities {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 20px;
+}
+
+.amenity {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.amentityTitle {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.amentityTitle > span {
+    font-size: 14px;
+    line-height: 16px;
+    color: #000;
+}
+
+.parkingInfo {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.parkingInfo > span {
+    font-size: 14px;
+    line-height: 16px;
+    color: #000;
+}
+
+.parkingSpaceType {
+    color: #909090 !important;
+}
